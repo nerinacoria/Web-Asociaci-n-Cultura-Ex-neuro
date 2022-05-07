@@ -1,3 +1,145 @@
 #titulo {
     color: aquamarine;
 }
+.container-fluid{
+    margin-top: -10rem;
+}
+
+.nav {
+    display: block;
+    
+   
+   
+  
+}
+h3{
+    margin: 40px;
+}
+.container-fluid-img{
+    width: auto;
+    height: 28rem;
+    background-image: url(foto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.nav-tabs .nav-historia.active{
+    border-width: 5px 0 0 0;
+    border-color:#ffe200  #dcdcdc  #ffffff;
+}
+.historia{
+    border-left: 7px solid red;
+    border-radius: 7px;
+    border-color: #ffe200 ;
+}
+
+
+.nav-tabs .nav-cultura.active{
+    border-width: 5px 0 0 0;
+    border-color:#f0ad4e #dcdcdc  #ffffff;
+}
+.cultura{
+    border-left: 7px solid red;
+    border-radius: 7px;
+    border-color: #f0ad4e;
+}
+
+
+.nav-tabs .nav-centro.active{
+    border-width: 5px 0 0 0;
+    border-color:#c189dd #dcdcdc  #ffffff;
+}
+.centro{
+    border-left: 7px solid red;
+    border-radius: 7px;
+    border-color:#c189dd;
+  
+}
+
+.nav-tabs .nav-galeria.active{
+    border-width: 5px 0 0 0;
+    border-color:#0ab4d6  #dcdcdc  #ffffff;
+}
+.galeria{
+    border-left: 7px solid red;
+    border-radius: 7px;
+    border-color: #0ab4d6;
+}
+.galeria img{
+    height: 400px;
+    object-fit: contain;
+    
+    
+}
+
+
+.nav-tabs .nav-cronograma.active{
+    border-width: 5px 0 0 0;
+    border-color:#90d751 #dcdcdc  #ffffff;
+}
+.cronograma{
+    border-left: 7px solid red;
+    border-radius: 7px;
+    border-color: #90d751;
+}
+
+
+.nav-tabs {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.nav-tabs .nav-link {
+    font-size: large;
+    font-weight: 500;
+    background: #ffffff;
+    color: #1582ef;
+   
+}
+.card{
+    margin-top: 30px;
+   
+}
+
+
+.carousel-control-next,.carousel-control-prev{
+    background-color:#bcc2c7;   
+  
+    width: 30px;
+
+}
+
+@media (min-width: 768px) {
+    .nav{
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+      
+       
+    }
+    .nav-link{
+        padding: 10px 10px;
+    }
+ }
+
+ @media (min-width: 992px) { 
+    .nav{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+       
+    }
+    .nav-link{
+        padding: 10px 5px;
+       
+    }
+
+  
+  }
