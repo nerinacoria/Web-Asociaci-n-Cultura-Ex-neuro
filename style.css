@@ -2,19 +2,25 @@
     color: aquamarine;
 }
 .container-fluid{
-    margin-top: -10rem;
+    margin-top: -3rem;
+    margin-left: 10px;
+    
 }
 
 .nav {
     display: block;
-    
-   
-   
-  
+    text-transform: uppercase;
 }
-h3{
-    margin: 40px;
+
+.container-titulo{
+    padding-left: 4%;
+    padding-top: 8%;
+    color: #dcdcdc;
 }
+h2{
+    font-size: 2.1rem;
+}
+
 .container-fluid-img{
     width: auto;
     height: 28rem;
@@ -74,11 +80,33 @@ h3{
     border-color: #0ab4d6;
 }
 .galeria img{
-    height: 400px;
+    height: 300px;
     object-fit: contain;
-    
+
+}
+.content{
+   margin-left: 0;
+    display: flex;
+}
+.info{
+    width: 100%;
     
 }
+.socios   {
+    width: 40%;
+    margin: 0% 1% 0% 1%;
+   
+}
+.socios .card-body   {
+  
+    height: 400px;
+}
+.socios-margin{
+    border-left: 7px solid red;
+    border-radius: 7px;
+    border-color:#504c52;
+}
+
 
 
 .nav-tabs .nav-cronograma.active{
@@ -94,6 +122,7 @@ h3{
 
 .nav-tabs {
     border-bottom: 1px solid #dcdcdc;
+  
 }
 
 .nav-tabs .nav-link {
@@ -101,7 +130,9 @@ h3{
     font-weight: 500;
     background: #ffffff;
     color: #1582ef;
-   
+    border-top: 5px solid rgb(67, 63, 63);
+    border-radius: 7px;
+    margin: 1px;
 }
 .card{
     margin-top: 30px;
@@ -116,30 +147,30 @@ h3{
 
 }
 
+
 @media (min-width: 768px) {
     .nav{
         display: block;
         flex-wrap: nowrap;
         justify-content: flex-start;
-      
-       
+
     }
     .nav-link{
         padding: 10px 10px;
     }
- }
+}
 
- @media (min-width: 992px) { 
+@media (min-width: 992px) { 
     .nav{
         display: flex;
         flex-wrap: nowrap;
         justify-content: flex-start;
-       
     }
     .nav-link{
         padding: 10px 5px;
-       
+        
     }
+   
 
   
   }
