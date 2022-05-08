@@ -6,12 +6,28 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
+header{
+    display: flex;
+}
 
-header nav, footer nav{
+.dark{
+    background-color: #2c3031;
+}
+
+header nav,header div, footer nav{
     display: flex;
     justify-content: center;
     background-color: #2c3031;
+    width: 100%;
 }
+header div {
+    width: 5%;
+}
+#buttonDark{
+    background: #0ab4d6;
+}
+
+
 
 nav li{
     margin: 10px;
@@ -70,6 +86,14 @@ h2{
     background-color: #fff;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+.nav-item {
+    transition: margin-left .3s, border .1s
+}
+.nav-item:hover{
+    margin-left: 10px;
+    border-left: 5px solid rgb(44, 44, 44);
+    border-radius: 10px;
 }
 
 
@@ -218,8 +242,10 @@ h2{
     .container-fluid{
         margin-left: 10px;
     }
-   
-   
-
+    .nav-item:hover{
+        margin-left: 0;
+        border-left: 0;
+        border-radius: 0;
+    }
   
   }
